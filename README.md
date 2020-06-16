@@ -1,2 +1,2 @@
-## Homework-2
+### Homework-2
 Second Homework Assignment. Responsive Portfolio

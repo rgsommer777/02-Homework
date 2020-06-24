@@ -7,59 +7,52 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Reset CSS, then load Bootstrap CSS, then load custom formatting in Style.css -->
-    
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Portfolio Page</title>
+  <!-- Load Bootstrap CSS, then load custom formatting in Style.css -->
 
-  </head>
-  <header>
-    <nav class="navbar navbar-expand-sm navbar-inverse bg-light">
-      <div class="d-flex justify-content-center">
-          <a class="navbar-brand d-none d-sm-inline-block" href="index.html">
-              Russ Sommer
-          </a>
-          <div class="w-100 text-right">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-          </div>
-      </div>
-      <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
-          <ul class="navbar-nav ml-auto flex-nowrap">
-            <li class="nav-item">
-              <a href="index.html" class="nav-link m-2 menu-item nav-active">About</a>
-          </li>
-          <li class="nav-item">
-              <a href="portfolio.html" class="nav-link m-2 menu-item">Portfolio</a>
-          </li>
-          <li class="nav-item">
-              <a href="contact.html" class="nav-link m-2 menu-item">Contact</a>
-          </li>
-          </ul>
-      </div>
-    </nav>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+   
+<title>Portfolio Page</title>
+</head>
+<header>
+  <!-- Had a great deal of trouble working with the NavBar so it is currently not collapsing correctly -->
+  <nav class="navbar navbar-expand-sm navbar-inverse">
+    <a class="navbar-brand d-none d-sm-inline-block" href="index.html">Russ Sommer</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto flex-nowrap">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>    
+      </ul>
+    </div>
+  </nav>
     
   </header>
     <p></p>
-
-
+<!-- Portfolio section not complete yet - still trying to work out the placement and flow -->
     <div id ="portfoliosection">
       <h2>Portfolio</h2>
       <hr>
       <div class="gallery">
         <div class = "row-1">
-          <div class="col-md-6">
+          <div class="col-sm-6">
              <img class="img img-thumbnail" src="http://placehold.it/500x400" alt="placeholder">
           </div>
-          <div class="col-md-6">
+          <div class="col-sm-6">
             <img class="img img-thumbnail" src="http://placehold.it/500x400" alt="placeholder">
           </div>   
         </div>
         <div class = "row-2">
-          <div class="col-md-6">
+          <div class="col-sm-6">
              <img class="img img-thumbnail" src="http://placehold.it/500x400" alt="placeholder">
           </div>
           <div class="col-md-6">
@@ -67,7 +60,7 @@
           </div>  
         </div>
         <div class = "row-3">
-          <div class="col-md-6">
+          <div class="col-sm-6">
             <img class="img img-thumbnail" src="http://placehold.it/500x400" alt="placeholder">
           </div>
         </div>  

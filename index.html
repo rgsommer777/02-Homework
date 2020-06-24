@@ -5,45 +5,37 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Load Bootstrap CSS, then load custom formatting in Style.css -->
 
-    <!-- Reset CSS, then load Bootstrap CSS, then load custom formatting in Style.css -->
-    
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <title>About Me Page</title>
-
+     
+  <title>About Me Page</title>
 </head>
   <header>
-    <nav class="navbar navbar-expand-sm navbar-inverse bg-light">
-      <div class="d-flex justify-content-center">
-          <a class="navbar-brand d-none d-sm-inline-block" href="index.html">
-              Russ Sommer
-          </a>
-          <div class="w-100 text-right">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-          </div>
-      </div>
-      <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
-          <ul class="navbar-nav ml-auto flex-nowrap">
-            <li class="nav-item">
-              <a href="index.html" class="nav-link m-2 menu-item nav-active">About</a>
+    <!-- Had a great deal of trouble working with the NavBar so it is currently not collapsing correctly -->
+    <nav class="navbar navbar-expand-sm navbar-inverse">
+      <a class="navbar-brand d-none d-sm-inline-block" href="index.html">Russ Sommer</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
           </li>
           <li class="nav-item">
-              <a href="portfolio.html" class="nav-link m-2 menu-item">Portfolio</a>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
           <li class="nav-item">
-              <a href="contact.html" class="nav-link m-2 menu-item">Contact</a>
-          </li>
-          </ul>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>    
+        </ul>
       </div>
     </nav>
     
   </header>
     <p></p>
-
 
     <article>
       <div class="AboutMe">
@@ -51,12 +43,12 @@
         <hr>
         <div class = "row">
           <div class="col-md-6">
-             <img class="img img-thumbnail" src="http://placehold.it/400x300" alt="placeholder">
+             <img class="img img-thumbnail" src="./img/AboutMePhoto3.jpg" alt="Russ Photo">
           </div>
           <div class="col-md-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis mollitia earum, perspiciatis et incidunt iure! A aliquam, eligendi totam vero pariatur dolorum maxime perspiciatis repellendus commodi placeat, architecto soluta distinctio!
+            Russ graduated from Georgia Tech with an electrical engineering degree and now is enrolled as a part time student in Tech’s Full Stack Boot Camp, where he will learn the ins and outs of web development. Russ also is a part time rock and roller in the Decades Band of Georgia, which plays clubs and events around Atlanta.
               <p></p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt officiis iusto distinctio. Et soluta voluptatem minus deleniti dicta temporibus possimus magnam fuga pariatur repellat cum natus veniam, dolor sit dolore?
+            Russ also enjoys working on home and auto projects and long, long bike rides around the Suwanee, Alpharetta and Riverside Greenways.
             <p></p>
           </div>   
         </div>

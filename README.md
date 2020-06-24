@@ -18,7 +18,7 @@ I accessed the Bootstrap CSS framework to build a responsive website using mobil
 
 I utilized the same navigation (nav section) based on Bootstrap Navbar for each page to keep the navigation consistent.
 
-1. Deployed the app to my GitHub repository:
+1. Deployed the app to my GitHub repository:<p></p>
     https://github.com/rgsommer777/Homework-2 <p></p>
     https://rgsommer777.github.io/Homework-2/
 

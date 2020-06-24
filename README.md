@@ -1,10 +1,3 @@
-# Homework-2
-Second Homework Assignment. Responsive Portfolio
-
-I used the same navigation (contained in the "header" section) for each page to keep the navigation consistent.
-
-(Portfolio page is incomplete and still needs work as does the navbar)
-
 # Responsive Portfolio
 
 Create a portfolio site using responsive design to ensure the application will render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application.

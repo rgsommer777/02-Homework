@@ -13,7 +13,7 @@ I utilized the same navigation (nav section) based on Bootstrap Navbar for each 
 
 1. Deployed the app to my GitHub repository:<p></p>
     https://github.com/rgsommer777/Homework-2 <p></p>
-    https://rgsommer777.github.io/Homework-2/
+    https://rgsommer777.github.io/Russ-Sommer-Portfolio/
 
 2. Added personalized information. (bio, name, images, links to social media, etc.)
 

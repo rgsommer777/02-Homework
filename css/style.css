@@ -1,5 +1,4 @@
 
-
 header{
     background-color: white;
     border-bottom: solid rgb(208,208,208);
@@ -49,8 +48,8 @@ section{
     display:flexbox;
     justify-content: left;
     flex-direction: row;
-    flex-wrap:wrap; */
-    border: 3px solid #da4dc2; */
+    flex-wrap:wrap;
+    /* border: 3px solid #da4dc2; */
 }
 .flex-items {  
     width: auto;
@@ -60,26 +59,26 @@ section{
 }  
 
 .navbar-brand {
-    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 30px;
     color: white;
     font-weight: bold;
     text-align: left;
     box-sizing: content-box;
-    background-color: rgb(89, 170, 165);
+    /* background-color: rgb(144, 144, 144); */
     height: 55px;
     margin: 0px 0px 0px 0px;
     padding: 15px 25px 10px 20px; 
    
 }
 h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-    font-size: 30px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
     font-weight: bold;
     text-align: left;
     padding-top: 30px;
     padding-left: 20px;
-    color: rgb(89, 170, 165);
+    color: rgb(41, 68, 224);
     
 }
 
@@ -111,7 +110,7 @@ footer {
     color:whitesmoke;
     font-size:12px;
     text-align: center;
-    border-top: 10px solid rgb(89, 170, 165) 
+    border-top: 10px solid rgb(202, 202, 202) 
 }
 .AboutMe{
     margin:auto;
@@ -129,3 +128,13 @@ footer {
 .row{
     margin:0px;
 }
+.btn-primary, .submit-button{
+background-color: blueviolet;
+border-radius: 5px;
+}
+
+.card-body{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+

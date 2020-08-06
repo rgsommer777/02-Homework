@@ -5,6 +5,8 @@ Updated portfolio site using responsive design to ensure the application will re
 # Approach
 I refined the look and feel of the original repository and added links and screenshots to the Portfolio page. Additionally, I updated email, phone, LinkedIn and GitHub links and added alink to my resume.
 
+In Git Hub, I updated my profike information including bio, contact and other info.
+
 - index.html
 - contact.html
 - portfolio.html
